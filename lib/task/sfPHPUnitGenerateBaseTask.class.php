@@ -25,7 +25,7 @@ abstract class sfPHPUnitGenerateBaseTask extends sfBaseTask
    */
   protected function getPluginDir()
   {
-    return sfConfig::get('sf_plugins_dir').'/sfPHPUnit2Plugin';
+    return dirname(__FILE__).'/../../';
   }
 
   /**
